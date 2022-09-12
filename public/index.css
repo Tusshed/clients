@@ -1,0 +1,9 @@
+#tab {
+    overflow: auto;
+    flex-grow: 1;
+    background-color: lightskyblue;
+}
+
+#create {
+    margin-top: 10px;
+}

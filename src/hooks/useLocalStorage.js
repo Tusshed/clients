@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 const PREFIX = "clients";
 
 function useLocalStorage(key, initialValue) {
+  // Comment
   const prefixedKey = PREFIX + key;
   const [value, setValue] = useState(() => {
     const jsonValue = localStorage.getItem(prefixedKey);
